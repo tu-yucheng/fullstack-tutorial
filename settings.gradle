@@ -7,3 +7,7 @@ project(":spring-core-1").projectDir = file('spring-framework/spring-core-1')
 include(':software-testing')
 include(':testing-containers')
 project(":testing-containers").projectDir = file('software-testing/testing-containers')
+
+include(':reactive-programming')
+include(':reactor-core')
+project(":reactor-core").projectDir = file('reactive-programming/reactor-core')
