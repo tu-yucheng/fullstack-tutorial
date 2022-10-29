@@ -12,6 +12,7 @@
 
     <modules>
         <module>spring-framework</module>
+        <module>software-testing</module>
     </modules>
 
     <properties>
