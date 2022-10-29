@@ -13,6 +13,7 @@
     <modules>
         <module>spring-framework</module>
         <module>software-testing</module>
+        <module>reactive-programming</module>
     </modules>
 
     <properties>
