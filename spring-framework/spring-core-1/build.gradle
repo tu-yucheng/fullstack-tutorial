@@ -1,0 +1,11 @@
+ext {
+    javaxInject = '1'
+}
+
+description = 'Spring Core'
+
+dependencies {
+    implementation "javax.inject:javax.inject:${javaxInject}"
+    implementation "org.springframework.boot:spring-boot-starter"
+    implementation "commons-io:commons-io:${commonsIo}"
+}

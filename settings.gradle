@@ -1,0 +1,5 @@
+rootProject.name = 'fullstack-tutorial'
+
+include(':spring-framework')
+include(':spring-core-1')
+project(":spring-core-1").projectDir = file('spring-framework/spring-core-1')
