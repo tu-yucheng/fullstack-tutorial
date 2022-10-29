@@ -1,0 +1,19 @@
+ext {
+    log4j2 = '2.17.1'
+    testcontainers = '1.11.4'
+    postgresql = '42.3.1'
+    seleniumRemoteDriver = '3.141.59'
+}
+
+description = '测试容器'
+
+dependencies {
+    testImplementation "org.junit.platform:junit-platform-runner:${junitPlatform}"
+    implementation "org.apache.logging.log4j:log4j-core:${log4j2}"
+    implementation "org.testcontainers:testcontainers:${testcontainers}"
+    implementation "org.testcontainers:postgresql:${testcontainers}"
+    implementation "org.testcontainers:selenium:${testcontainers}"
+    implementation "org.postgresql:postgresql:${postgresql}"
+    implementation "org.seleniumhq.selenium:selenium-remote-driver:${seleniumRemoteDriver}"
+    implementation "org.seleniumhq.selenium:selenium-chrome-driver:${seleniumRemoteDriver}"
+}
